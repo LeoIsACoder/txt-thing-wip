@@ -8,6 +8,12 @@
 
         }
 
+@font-face {
+    font-family: "pop-regular";
+    src: url("../font/Poppins-Regular.ttf");
+    
+}
+
 #fricking-random-stuff {
             font-family:Arial;
             font-style:italic;
