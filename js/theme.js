@@ -6,9 +6,9 @@ function toggleTheme() {
   
             // Change the value of href attribute 
             // to change the css sheet.
-            if (theme.getAttribute('href') == 'light.css') {
-                theme.setAttribute('href', 'dark.css');
+            if (theme.getAttribute('href') == '../css-styles/light.css') {
+                theme.setAttribute('href', '../css-styles/dark.css');
             } else {
-                theme.setAttribute('href', 'light.css');
+                theme.setAttribute('href', '../css-styles/light.css');
             }
         }
